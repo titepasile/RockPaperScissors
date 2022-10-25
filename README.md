@@ -1,0 +1,2 @@
+# RockPaperScissors
+developed in JavaScript
