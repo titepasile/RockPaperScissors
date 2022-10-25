@@ -1,12 +1,14 @@
-switch (Math.floor(Math.random() * 3) + 1) {
+var compNumer = Math.floor(Math.random() * 3) + 1
+
+switch (compNumber) {
   case 1:
-    const rock = 'rock'
+    var compRock = 'rock'
     break
   case 2:
-    const paper = 'paper'
+    var compPaper = 'paper'
     break
   case 3:
-    const scissor = 'scissor'
+    var compScissor = 'scissor'
     break
   default:
     console.log('ERROR')
@@ -29,14 +31,17 @@ function UserInput () {
 
 switch (UserInput()) {
   case 1:
-    rock
+    var useRock = 'rock'
     break
   case 2:
-    paper
+    var userPaper = 'paper'
     break
   case 3:
-    scissor
+    var userScissor = 'scissor'
     break
   default:
     console.log('ERROR')
+}
+
+if (condition) {
 }
