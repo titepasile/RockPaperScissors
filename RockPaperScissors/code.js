@@ -11,3 +11,8 @@ switch(Math.floor(Math.random() * 3) + 1) {
     default:
       console.log("ERROR");
   }
+
+  console.log('Its your choise.');
+  console.lof('What do you want to choose?');
+  console.lof('rock [1], paper [2] or scissor [3]?');
+
